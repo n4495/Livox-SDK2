@@ -28,6 +28,7 @@
   #include <direct.h>
 #else
   #include <dirent.h>
+  #include <cstdint>
   #include <sys/stat.h>
   #include <sys/types.h>
   #include <unistd.h>
